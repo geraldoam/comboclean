@@ -33,7 +33,7 @@ printf "%*s\n" $(((${#title}+$COLUMNS)/2)) "$title"
 function statusPrint(){
 	if [[ "$1" == "error" ]]; then
 		logoPrint
-		echo -e "\e[91m[Error]\e[39m Try: combolist --help"
+		echo -e "\e[91m[Error]\e[39m Try: comboclean --help"
 	else
 		logoPrint
 		echo -e "\e[32m[Sucess]\e[39m | by \e[96mi386angel"
