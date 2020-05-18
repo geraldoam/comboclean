@@ -24,13 +24,13 @@ ___
 
 Copy and paste on your terminal.
 
-```shell
+```console
 $ git clone https://github.com/i386angel/comboclean && cd comboclean/ && chmod +x comboclean && sudo cp comboclean /usr/bin/comboclean
 ```
 
 <h2>How to use</h2>
 
-```shell
+```console
 $ comboclean --help
 ```
 
@@ -40,7 +40,7 @@ ___
 
 A combolist example:
 
-```shell
+```console
 $ cat combolist.txt
 
 username:password something | something | something
@@ -53,11 +53,11 @@ username:password something | something | something
 
 Using <b>comboclean</b>
 
-```shell
+```console
 $ comboclean -f combolist.txt -o combolist2.txt
 ```
 
-```shell
+```console
 $ cat combolist2.txt
 
 username:password
