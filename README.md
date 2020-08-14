@@ -6,7 +6,7 @@ ___
 
 <p align="center">
 	<h3 align="center">Combo Clean</h3>
-	<p align="center">by i686leak</p>
+	<p align="center">by gerald0x01</p>
 </p>
 
 <p align="center">
