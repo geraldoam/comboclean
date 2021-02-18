@@ -24,7 +24,7 @@ ___
 Copy and paste on your terminal.
 
 ```console
-$ git clone https://github.com/geraldoam/comboclean && cd comboclean/ && chmod +x comboclean && sudo cp comboclean /usr/bin/comboclean
+$ git clone https://github.com/geraldoahnert/comboclean && cd comboclean/ && chmod +x comboclean && sudo cp comboclean /usr/bin/comboclean
 ```
 
 <h2>How to use</h2>
