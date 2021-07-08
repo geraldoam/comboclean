@@ -10,7 +10,7 @@ ___
 
 <p align="center">
 	<a target="__blank" href="#">
-	  <img src="https://img.shields.io/badge/status-in progress-red?&style=for-the-badge"/>
+	  <img src="https://img.shields.io/badge/status-finish-green?&style=for-the-badge"/>
 	  <img src="https://img.shields.io/badge/license-mit-blue?&style=for-the-badge"/>
 	</a>
 </p>
@@ -21,15 +21,22 @@ ___
 
 <h2>Install</h2>
 
-Copy and paste on your terminal.
+```markdown
+$ git clone https://github.com/geraldoahnert/comboclean
+$ cd comboclean/
+$ chmod +x comboclean
 
-```console
-$ git clone https://github.com/geraldoahnert/comboclean && cd comboclean/ && chmod +x comboclean && sudo cp comboclean /usr/bin/comboclean
+# Install global command
+$ sudo cp comboclean /usr/bin/comboclean
 ```
 
 <h2>How to use</h2>
 
-```console
+```markdown
+# Local
+$ ./comboclean --help
+
+# Global
 $ comboclean --help
 ```
 
